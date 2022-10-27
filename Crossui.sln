@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çözüm Öğeleri", "Çözüm Öğeleri", "{845096E8-C260-49AB-B543-7F4678EBA2F1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{2B541DFF-09B9-4480-8C48-8A384B6ACA0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phone", "Phone", "{D19CA931-C707-4AC0-9053-D7C593F765EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{5E66F4CC-2C40-41FD-9188-EFB511A535A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{20F4834A-3DAE-4EC7-B77F-DFC1C357428A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crossui.Library", "Library\Crossui.Library\Crossui.Library.csproj", "{363D3CE7-3003-4F40-B9F6-D74DE510532E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hybrid", "Hybrid", "{EA837D4A-2B5F-4F20-8D2D-807EBBD91378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossui.Hybrid", "Hybrid\Crossui.Hybrid\Crossui.Hybrid.csproj", "{0D401337-451F-4BC3-A5B1-184241E9B1F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{363D3CE7-3003-4F40-B9F6-D74DE510532E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363D3CE7-3003-4F40-B9F6-D74DE510532E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363D3CE7-3003-4F40-B9F6-D74DE510532E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363D3CE7-3003-4F40-B9F6-D74DE510532E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D401337-451F-4BC3-A5B1-184241E9B1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D401337-451F-4BC3-A5B1-184241E9B1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D401337-451F-4BC3-A5B1-184241E9B1F1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D401337-451F-4BC3-A5B1-184241E9B1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D401337-451F-4BC3-A5B1-184241E9B1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D401337-451F-4BC3-A5B1-184241E9B1F1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{363D3CE7-3003-4F40-B9F6-D74DE510532E} = {2B541DFF-09B9-4480-8C48-8A384B6ACA0B}
+		{0D401337-451F-4BC3-A5B1-184241E9B1F1} = {EA837D4A-2B5F-4F20-8D2D-807EBBD91378}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C3CBCA8-0801-4AA0-9FF2-245902002EE1}
+	EndGlobalSection
+EndGlobal
