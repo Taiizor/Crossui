@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çözüm Öğeleri", "Çöz
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{2B541DFF-09B9-4480-8C48-8A384B6ACA0B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phone", "Phone", "{D19CA931-C707-4AC0-9053-D7C593F765EA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{5E66F4CC-2C40-41FD-9188-EFB511A535A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{20F4834A-3DAE-4EC7-B77F-DFC1C357428A}"
@@ -28,6 +26,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crossui.WPF", "Desktop\Crossui.WPF\Crossui.WPF.csproj", "{05A5FB3D-2838-461D-B89D-1ADA80F97804}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossui.Console", "Console\Crossui.Console\Crossui.Console.csproj", "{BDF3838D-F238-496B-8073-21DA8866C4A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phone", "Phone", "{40A675A1-A2A2-438B-A45F-A8E211B7FDE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
