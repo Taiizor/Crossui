@@ -1,18 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 namespace Crossui.Console
@@ -39,11 +29,9 @@ namespace Crossui.Console
         /// <param name="e">Başlatma isteği ve işlemi ile ilgili ayrıntılar.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
-            Frame rootFrame = Window.Current.Content as Frame;
-
             // Pencerede içerik varken uygulama başlatmayı tekrarlamayın,
             // pencerenin etkin olduğundan emin olun
-            if (rootFrame == null)
+            if (!(Window.Current.Content is Frame rootFrame))
             {
                 // Gezinti bağlamı olarak kullanılacak bir Çerçeve oluşturun ve ilk sayfaya gidin
                 rootFrame = new Frame();
@@ -92,7 +80,7 @@ namespace Crossui.Console
         /// <param name="e">Askıya alma isteğiyle ilgili ayrıntılar.</param>
         private void OnSuspending(object sender, SuspendingEventArgs e)
         {
-            var deferral = e.SuspendingOperation.GetDeferral();
+            SuspendingDeferral deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Uygulama durumunu kaydet ve tüm arka plan etkinliklerini durdur
             deferral.Complete();
         }
