@@ -1,7 +1,9 @@
-﻿// To learn more about WinUI, the WinUI project structure,
+﻿using Microsoft.UI.Xaml;
+
+// To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace Crossui.Hybrid.WinUI
+namespace Crossui.MAUI.WinUI
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -17,9 +19,6 @@ namespace Crossui.Hybrid.WinUI
             this.InitializeComponent();
         }
 
-        protected override MauiApp CreateMauiApp()
-        {
-            return MauiProgram.CreateMauiApp();
-        }
+        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
 }

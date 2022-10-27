@@ -1,4 +1,4 @@
-﻿namespace Crossui.Hybrid
+﻿namespace Crossui.MAUI
 {
     public partial class MainPage : ContentPage
     {

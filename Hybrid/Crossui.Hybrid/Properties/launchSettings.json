@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Crossui Hybrid": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}

@@ -1,0 +1,8 @@
+{
+    "profiles": {
+        "Crossui MAUI": {
+            "commandName": "MsixPackage",
+            "nativeDebugging": false
+        }
+    }
+}

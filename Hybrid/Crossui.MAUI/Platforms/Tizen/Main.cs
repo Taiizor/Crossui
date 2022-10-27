@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace Crossui.Hybrid
+namespace Crossui.MAUI
 {
     internal class Program : MauiApplication
     {

@@ -1,6 +1,7 @@
-﻿using UIKit;
+﻿using ObjCRuntime;
+using UIKit;
 
-namespace Crossui.Hybrid
+namespace Crossui.MAUI
 {
     public class Program
     {

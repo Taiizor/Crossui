@@ -1,6 +1,6 @@
 ﻿using Crossui.Library.Data;
 
-namespace Crossui.Hybrid
+namespace Crossui.MAUI
 {
     public static class MauiProgram
     {
