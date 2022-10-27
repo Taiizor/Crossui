@@ -13,11 +13,11 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\Library\Crossui.Library\Crossui.Library.csproj" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="6.0.546" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="6.0.546" />
+        <ProjectReference Include="..\..\Library\Crossui.Core\Crossui.Core.csproj" />
     </ItemGroup>
 
 </Project>

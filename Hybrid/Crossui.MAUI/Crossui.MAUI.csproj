@@ -53,7 +53,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\Library\Crossui.Library\Crossui.Library.csproj" />
+        <ProjectReference Include="..\..\Library\Crossui.Core\Crossui.Core.csproj" />
     </ItemGroup>
 
 </Project>

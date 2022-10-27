@@ -1,4 +1,4 @@
-namespace Crossui.Library.Data
+namespace Crossui.Core.Data
 {
     public class WeatherForecast
     {

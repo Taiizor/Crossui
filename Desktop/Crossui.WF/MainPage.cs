@@ -1,5 +1,5 @@
-﻿using Crossui.Library;
-using Crossui.Library.Data;
+﻿using Crossui.Core;
+using Crossui.Core.Data;
 using Microsoft.AspNetCore.Components.WebView.WindowsForms;
 using Microsoft.Extensions.DependencyInjection;
 

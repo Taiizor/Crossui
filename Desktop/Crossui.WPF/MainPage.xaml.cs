@@ -1,4 +1,4 @@
-﻿using Crossui.Library.Data;
+﻿using Crossui.Core.Data;
 using Microsoft.Extensions.DependencyInjection;
 using System.Windows;
 
