@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 // Bir bütünleştirilmiş koda ilişkin Genel Bilgiler aşağıdaki öznitelikler kümesiyle
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
 // bu öznitelik değerlerini değiştirin.
-[assembly: AssemblyTitle("Crossui.Console")]
+[assembly: AssemblyTitle("Crossui.UWP")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
-[assembly: AssemblyProduct("Crossui.Console")]
+[assembly: AssemblyProduct("Crossui.UWP")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyTrademark("")]

@@ -2,7 +2,7 @@
 
 // Boş Sayfa öğe şablonu https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x41f adresinde açıklanmaktadır
 
-namespace Crossui.Console
+namespace Crossui.UWP
 {
     /// <summary>
     /// Kendi başına kullanılabilecek ya da bir Çerçeve içine taşınabilecek boş bir sayfa.

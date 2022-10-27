@@ -7,8 +7,8 @@
     <ProjectGuid>{BDF3838D-F238-496B-8073-21DA8866C4A1}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Crossui.Console</RootNamespace>
-    <AssemblyName>Crossui.Console</AssemblyName>
+    <RootNamespace>Crossui.UWP</RootNamespace>
+    <AssemblyName>Crossui.UWP</AssemblyName>
     <DefaultLanguage>en-GB</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>

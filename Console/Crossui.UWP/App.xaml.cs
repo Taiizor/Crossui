@@ -5,7 +5,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace Crossui.Console
+namespace Crossui.UWP
 {
     /// <summary>
     /// Varsayılan Uygulama sınıfını tamamlayacak uygulamaya özgü davranış sağlar.
