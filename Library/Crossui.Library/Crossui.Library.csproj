@@ -20,9 +20,15 @@
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
     </PropertyGroup>
 
+    <!--<ItemGroup>
+        <ContentWithTargetPath Include="wwwroot\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <TargetPath>wwwroot\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+        </ContentWithTargetPath>
+    </ItemGroup>-->
+
     <ItemGroup>
-        <Folder Include="Pages\" />
-      <Folder Include="Properties\" />
+        <Folder Include="Properties\" />
     </ItemGroup>
 
 </Project>
