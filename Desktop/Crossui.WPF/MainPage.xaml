@@ -7,7 +7,7 @@
 		xmlns:core="clr-namespace:Crossui.Core;assembly=Crossui.Core"
 		mc:Ignorable="d"
 		WindowStartupLocation="CenterScreen"
-		Title="Crossui.WF"
+		Title="Crossui.WPF"
 		Height="600" Width="800"
 >
 	<Grid>
