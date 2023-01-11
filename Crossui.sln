@@ -35,7 +35,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blazor", "Blazor", "{F79B9C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crossui.Blazor.Wasm", "Web\Blazor\Crossui.Blazor.Wasm\Crossui.Blazor.Wasm.csproj", "{16E198C2-B388-4E37-97DE-6F8343D5B34A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossui.Blazor.Server", "Web\Blazor\Crossui.Blazor.Server\Crossui.Blazor.Server.csproj", "{87076E56-E6ED-41A6-A09D-C801D8290A12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crossui.Blazor.Server", "Web\Blazor\Crossui.Blazor.Server\Crossui.Blazor.Server.csproj", "{87076E56-E6ED-41A6-A09D-C801D8290A12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
