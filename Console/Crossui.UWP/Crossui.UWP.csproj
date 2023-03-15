@@ -151,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui">
-      <Version>8.0.0-preview.1.7762</Version>
+      <Version>8.0.0-preview.2.7871</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf">
       <Version>8.0.0-preview.1.7762</Version>
