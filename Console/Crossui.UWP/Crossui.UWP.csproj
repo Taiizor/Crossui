@@ -154,7 +154,7 @@
       <Version>8.0.0-preview.1.7762</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf">
-      <Version>8.0.0-preview.1.7762</Version>
+      <Version>8.0.0-preview.2.7871</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
