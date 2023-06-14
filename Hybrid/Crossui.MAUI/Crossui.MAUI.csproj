@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+<Project Sdk="Microsoft.NET.Sdk.Razor">
 
     <PropertyGroup>
         <TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
@@ -61,7 +61,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Update="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.0-preview.4.8333" />
+      <PackageReference Update="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.0-preview.5.8529" />
     </ItemGroup>
 
 </Project>

@@ -36,7 +36,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Update="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.0-preview.4.8333" />
+      <PackageReference Update="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.0-preview.5.8529" />
     </ItemGroup>
 
 </Project>
