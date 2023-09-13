@@ -53,15 +53,15 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.25921-preview" />
-    </ItemGroup>
-
-    <ItemGroup>
         <ProjectReference Include="..\..\Library\Crossui.Core\Crossui.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Update="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.0-rc.1.9171" />
+        <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.25936-preview" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Update="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.0-rc.1.9171" />
     </ItemGroup>
 
 </Project>
