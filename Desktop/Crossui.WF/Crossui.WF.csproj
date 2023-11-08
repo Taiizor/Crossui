@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="8.0.0-rc.2.9511" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="8.0.0-rc.2.9530" />
     </ItemGroup>
 
     <ItemGroup>
